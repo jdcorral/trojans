@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jeff Corral</title>
+    <meta name="viewport" content="width=device-width">
+    
+    <link rel="stylesheet" href="css/colorbox.css" >
+    
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/jquery.colorbox.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".gallery-design").colorbox({rel:"gallery-design", slideshow:true});
+        $(".gallery-illustration").colorbox({rel:"gallery-illustration", slideshow:true});
+        $(".gallery-photo-aircraft").colorbox({rel:"gallery-photo-aircraft", slideshow:true});
+        $(".gallery-photo-auto").colorbox({rel:"gallery-photo-auto", slideshow:true});
+        $(".gallery-photo-animals").colorbox({rel:"gallery-photo-animals", slideshow:true});
+        $(".gallery-misc").colorbox({rel:"gallery-misc", slideshow:true});
+        
+        $(".ajax").colorbox();
+        $(".callbacks").colorbox({
+          onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+          onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+          onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+          onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+          onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+        });
+        $("#click").click(function(){ 
+          $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+          return false;
+        });
+      });
+    </script>
+
+  </head>
+  <body>
+    <div id="top" class="header-container">
+
+      <header class="wrapper clearfix">
+          <nav>
+              <ul>
+                  <!-- <img class="navbar-logo" src="img/Delfinadesigns-logo.png" /> -->
+                  <li><a href="home.html">home</a></li>
+                  <li><a href="about.html">about</a></li>
+                  <li><a href="contact.html">contact</a></li>
+              </ul>
+          </nav>
+      </header>
+    </div>
+
+    <div class="main-header"> 
+      <h1>jeff corral</h1>
+    </div>
+
+    <div class="title">
+      <a href="#design">designer</a> | 
+      <a href="#illustrations">illustrator</a> | 
+      <a href="#photographs">photographer</a>
+    </div>
+    
+    <!-- Begin .primary-content -->
+    <div class="primary-content">
+      <p class="intro">
+        Welcome....Yes, it's finally here.  This is the first iteration of my long anticipated website, and I mean long! The contents spans many years of drawing, designing, walking racetracks and airshow fields for hours, braving nature and just being lucky.  As I remember things that I may have forgotten to put in this version, I will add them.  It's a work in progress and will need updating often.  If you have any comments, please feel free to shoot me an email. That said, I hope you find something of interest somewhere in all this. 
+      </p>
+      <p class="intro">Thanks for visiting.</p>
+    </div>
+    <!-- End .primary-content -->
+
+    <!-- Begin .secondary-content -->  
+    <div class="secondary-content">
+      
+      <!-- Begin #design -->
+      <div id="design" class="main-content t-border group">
+        <h2>Designs</h2>
+        <p>I have put a little of everything I've designed in here. From logos to sketches to print work to renderings, it's in this gallery.</p>
+         
+          <div class="thumbs" >
+             <img class="main-thumbs" src="img/design/main-thumb-design.jpg" alt="289 FIA Cobra">
+          </div>
+          <div class="thumbs-desc">
+            <h3>SKETCHES, RENDERINGS, AND LOGOS</h3>
+            <p>Design is a broad term and it encompasses many differrent types of media. Here are some I've working in the past. Eventually I am hopeful that I will add websites to this category.</p>
+            <p><a class="gallery-design"  href="img/design/building_renderings.jpg" title="1965 Sunbeam Tiger"><button class="btn-view">VIEW GALLERY</button></a></p>
+            <p><a class="gallery-design"  href="img/design/My_Logos.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-design"  href="img/design/DSC_0722_bike.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-design"  href="img/design/DSC_0718_pulltoy.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-design"  href="img/design/Suzuki_GZ250_2001_before_after.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-design"  href="img/design/DSC_0720_car.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-design"  href="img/design/DSC_0732_car2.jpg" title="2010 Astin Martin DB7"></a></p>
+            <a href="#top">Back to top &raquo;</a>
+          </div>         
+      </div>
+      <!-- End #design -->
+
+      <!-- Begin #illustrations -->
+      <div id="illustrations" class="main-content t-border group">
+        <h2>Illustrations</h2>
+        <p>This is a collection of my drawings and various artwork I've done mostly because I enjoy it. At one point I thought that I might become a Illustrator for a living. Not so much anymore, but I still enjoy it.</p>         
+          <div class="thumbs" >
+             <img class="main-thumbs" src="img/illustration/main-thumb-illustration.jpg" alt="289 FIA Cobra">
+          </div>
+          <div class="thumbs-desc">
+            <h3>INK, PENCIL AND PAINT</h3>
+            <p>I don't have much else to say, maybe I'll think of something in the days to come.</p>
+            <p><a class="gallery-illustration"  href="img/illustration/DSC_0747_headshot.jpg" title="1965 Sunbeam Tiger"><button class="btn-view">VIEW GALLERY</button></a></p>
+            <p><a class="gallery-illustration"  href="img/illustration/DSC_0719_objects.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-illustration"  href="img/illustration/DSC_0749_shelby.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-illustration"  href="img/illustration/DSC_0725_abstract.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-illustration"  href="img/illustration/DSC_0726_bulb.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-illustration"  href="img/illustration/DSC_0744_mustang.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-illustration"  href="img/illustration/DSC_0721_daylight.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-illustration"  href="img/illustration/DSC_0748_island.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-illustration"  href="img/illustration/DSC_0717_tiger.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-illustration"  href="img/illustration/DSC_0745_GT40.jpg" title="1957 Thunderbird"></a></p>
+            <a href="#top">Back to top &raquo;</a>
+          </div>         
+      </div>
+      <!-- End #illustrations -->
+
+      <!-- Begin #photographs -->
+      <div id="photographs" class="main-content t-border group">
+          <h2>Photo Galleries</h2>
+          <p>The following galleries are images of some of my travels and weekend diversions. These photos represent the times I've spent rejuevinating myself by getting lost in a zone. I try to get to that place as often as I can.</p>
+          <hr color= "#333"></hr>
+
+        <!-- Aircraft -->
+          <div class="thumbs" >
+             <img class="main-thumbs" src="img/aircraft/main-thumb-air.jpg" alt="289 FIA Cobra">
+          </div>
+          <div class="thumbs-desc">
+            <h3>AIRCRAFT</h3>
+            <p>This is a gallery showcases a very small number of shots taken at airshows and such.</p>
+            <p><a class="gallery-photo-aircraft" href="img/aircraft/DSC_0608_b-25.jpg" title="1965 Sunbeam Tiger"><button class="btn-view">VIEW GALLERY</button></a></p>
+            <p><a class="gallery-photo-aircraft" href="img/aircraft/DSC_1905_p51b.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-photo-aircraft" href="img/aircraft/DSC_1199_AD-1.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-aircraft" href="img/aircraft/DSC_2207_blueangles.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-photo-aircraft" href="img/aircraft/DSC_0803_F8F.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-photo-aircraft" href="img/aircraft/DSC_1619_F15.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-aircraft" href="img/aircraft/DSC_0995_Strega.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-photo-aircraft" href="img/aircraft/DSC_1905_p51.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-aircraft" href="img/aircraft/DSC_1764_thunderbirds.jpg" title="1957 Thunderbird"></a></p>
+            <a href="#top">Back to top &raquo;</a>
+          </div>
+        </div>
+        <!-- End Aicraft -->
+
+        <hr color= "#333"></hr>
+
+        <!-- Autos -->
+        <div id="photographs" class="main-content group">  
+          <div class="thumbs" >
+             <img class="main-thumbs" src="img/auto/main-thumb-auto.jpg" alt="289 FIA Cobra">
+          </div>
+          <div class="thumbs-desc">
+            <h3>MODERN AND VINTAGE RACE AUTOMOBILES</h3>
+            <p>My first love...I've been shooting cars for a very long time, many on film. For now, For now, I've only posted dgital images I've taken over the past 7 years or so. Someday I will scan the good ones on film and upload them.</p>            
+            <p><a class="gallery-photo-auto" href="img/auto/DSC_0072_Cobra16.jpg" title="1965 Sunbeam Tiger"><button class="btn-view">VIEW GALLERY</button></a></p>
+            <p><a class="gallery-photo-auto"  href="img/auto/DSC_0072_TBird89.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-photo-auto"  href="img/auto/DSC_0631_GT350.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-photo-auto"  href="img/auto/DSC_0056_Tiger55.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-photo-auto"  href="img/auto/DSC_1339_Astin007.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-auto"  href="img/auto/DSC_0272_Porsche12.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-photo-auto"  href="img/auto/DSC_0072_Cobra12.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-photo-auto"  href="img/auto/DSC_1339_Astin007.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-auto"  href="img/auto/DSC_0219_Mustang68.jpg" title="1967 Trans-Am Mustang"></a></p>
+            <p><a class="gallery-photo-auto"  href="img/auto/DSC_0360_RileyFord01.jpg" title="2015 Riley Ford Daytona Prototype"></a></p>
+            <p><a class="gallery-photo-auto"  href="img/auto/DSC_0223_Ferrari78.jpg" title="1957 Ferrari Testa Rosa"></a></p>
+            <p><a class="gallery-photo-auto"  href="img/auto/DSC_2290_CobraWheel.jpg" title="Cobra wheel"></a></p>
+            <p><a class="gallery-photo-auto"  href="img/auto/DSC_1340_RSSpyder6.jpg" title="2007 RS Spyder Porsche"></a></p>
+            <p><a class="gallery-photo-auto"  href="img/auto/DSC_0958_Mustang16.jpg" title="1969 Trans-Am Mustang"></a></p>
+            <p><a class="gallery-photo-auto"  href="img/auto/DSC_0476_Mclaren5.jpg" title="2015 Astin Martin DB9"></a></p>
+            <a href="#top">Back to top &raquo;</a>
+          </div>
+        </div>
+        <!-- End Autos -->  
+         
+        <hr color= "#333"></hr> 
+
+        <!-- Animals -->
+        <div id="photographs" class="main-content group">
+          <div class="thumbs" >
+             <img class="main-thumbs" src="img/animals/main-thumb-animal.jpg" alt="289 FIA Cobra">
+          </div>
+          <div class="thumbs-desc">
+            <h3>ANIMALS</h3>
+            <p>Animals take patience. They never do what you want or stay in one spot very long. I've spent a lot of time just waiting for something good to present itself...sometimes it never happens.</p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSC_0123_squirrel.jpg" title="1965 Sunbeam Tiger"><button class="btn-view">VIEW GALLERY</button></a></p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSC_2310_dragonfly.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSC_0437_zebras.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSC_1167_butterfly.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSCN2668_frog.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSC_0369_dolphin.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSC_2124_ducks.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSC_2114_hummingbird.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSC_1382_spider.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSC_0322_winston.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSC_1112_butterfly.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSCN2151_dragonfly2.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSC_0365_gull2.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSC_0285_cardinal.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-photo-animals"  href="img/animals/DSC_0363_pelican.jpg" title="2010 Astin Martin DB7"></a></p>
+            <a href="#top">Back to top &raquo;</a>
+          </div>
+          <!-- End Animals -->
+
+        </div>
+        <!-- End #photographs -->
+
+      <!-- Begin #misc -->
+      <div id="misc" class="main-content t-border group">
+        <h2>Miscellaneous</h2>
+        <p>This is a small collection of those images I've taken that didn't fit in any of the other categories. There are some that I've had some fun with in Photoshop but mostly just things I felt needed to be captured for later viewing.</p>         
+          <div class="thumbs" >
+             <img class="main-thumbs" src="img/misc/main-thumb-misc.jpg" alt="289 FIA Cobra">
+          </div>
+          <div class="thumbs-desc">
+             <h3>MISCELLANEOUS</h3>
+             <p>What else can I say...and the rest.</p>
+             <p><a class="gallery-misc"  href="img/misc/DSC_0071_GrandCanyon2.jpg" title="1965 Sunbeam Tiger"><button class="btn-view">VIEW GALLERY</button></a></p>
+            <p><a class="gallery-misc"  href="img/misc/DSC_0424_surfer.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-misc"  href="img/misc/DSC_0526_train.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-misc"  href="img/misc/DSC_0688_rose.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-misc"  href="img/misc/DSC_0833_rider.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-misc"  href="img/misc/DSC_1820-26_megx5.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-misc"  href="img/misc/DSCN0040_churchhill.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-misc"  href="img/misc/DSCN1357_joshua.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-misc"  href="img/misc/DSCN2982_helo.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-misc"  href="img/misc/DSCN2899_danaPt.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-misc"  href="img/misc/DSC_2128_flower.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-misc"  href="img/misc/DSCN1374_shadows.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-misc"  href="img/misc/DSC_0425_EchoMt.jpg" title="1957 Thunderbird"></a></p>
+            <p><a class="gallery-misc"  href="img/misc/DSC_2151-60_corona.jpg" title="2010 Astin Martin DB7"></a></p>
+            <p><a class="gallery-misc"  href="img/misc/DSC_0242_Yosemite.jpg" title="1957 Thunderbird"></a></p>
+            <a href="#top">Back to top &raquo;</a>
+          </div>         
+      </div>
+      <!-- End #misc -->
+
+    </div>
+    <!-- End .secondary-content -->
+
+    <div class="b-logo ">
+          <img src="img/Delfinadesigns-logo.png" />
+    </div>
+    
+    <footer class="main-footer">
+      <a href="http://facebook.com/jeffcorral63">
+        <img src="img/facebook-wrap-copy.png" alt="Facebook logo"class="social-icon">
+      </a>
+      <p>&copy; 2015 Jeff Corral<!--<a href="#"></a> --></p>
+      <a href="#top">Back to top &raquo;</a>
+    </footer>
+
+    <!-- 
+    <script>
+        $("gallery-design").colorbox("gallery-design");
+    </script>
+  -->
+
+
+  </body>
